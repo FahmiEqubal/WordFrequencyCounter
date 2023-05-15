@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/WordFrequencyCounter/static/css/main.df66d40b.css",
+    "main.js": "/WordFrequencyCounter/static/js/main.352d086e.js",
+    "static/media/logo.svg": "/WordFrequencyCounter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/WordFrequencyCounter/index.html",
+    "main.df66d40b.css.map": "/WordFrequencyCounter/static/css/main.df66d40b.css.map",
+    "main.352d086e.js.map": "/WordFrequencyCounter/static/js/main.352d086e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df66d40b.css",
+    "static/js/main.352d086e.js"
+  ]
+}
