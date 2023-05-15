@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Word Frequency Counter
+ Click here to view site 
+https://fahmiequbal.github.io/WordFrequencyCounter/
 
-## Available Scripts
+A simple React application that fetches text data from a remote URL and calculates the word frequency count. The word count data is visualized using a bar chart, and users have the option to export the data as a CSV file.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/word-frequency-counter.git
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
+   ```bash
+   cd word-frequency-counter
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+2. Open the application in your web browser:
+   ```
+   https://fahmiequbal.github.io/WordFrequencyCounter/
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Enter the desired number in the input field and click the "Generate Word Frequency" button. The application will fetch text data from a remote URL and calculate the word frequency count.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. The word frequency count will be displayed as a bar chart, showcasing the top 20 most frequent words.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. You can hover over the bars to view the exact word count values.
 
-### `npm run eject`
+6. Click the "Export" button to download the word frequency count data as a CSV file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React: JavaScript library for building user interfaces
+- Axios: Promise-based HTTP client for making requests to the remote URL
+- Chart.js: Charting library for creating visualizations
+- react-chartjs-2: React wrapper for using Chart.js with React
+- react-csv: Library for exporting data as CSV files
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to modify the content according to your project's specifics and add any additional sections or information that you think would be helpful for users.
